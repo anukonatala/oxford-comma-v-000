@@ -15,8 +15,6 @@ def oxford_comma(array)
       newString << ', '
       len -= 1
       index += 1
-      puts "#{newString}"
-      puts "#{len}"
   end
   newString << 'and '
   newString << array[index]
@@ -25,4 +23,3 @@ end
 end
 
 
-puts "#{oxford_comma(["kiwi", "durian"])}"
